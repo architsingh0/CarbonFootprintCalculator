@@ -7,13 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A3289782BD74B850016D031 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A3289772BD74B850016D031 /* GoogleService-Info.plist */; };
+		1A32897A2BD74D550016D031 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3289792BD74D550016D031 /* AppViewModel.swift */; };
+		1A32897C2BD74D720016D031 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32897B2BD74D720016D031 /* HomeView.swift */; };
+		1A32897E2BD74D910016D031 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32897D2BD74D910016D031 /* LeaderboardView.swift */; };
+		1A3289802BD74DB00016D031 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32897F2BD74DB00016D031 /* HistoryView.swift */; };
+		1A3289822BD74DC60016D031 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3289812BD74DC60016D031 /* ProfileView.swift */; };
+		1A3289862BD74E030016D031 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3289852BD74E030016D031 /* User.swift */; };
+		1A3289882BD74E1A0016D031 /* DailyEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3289872BD74E1A0016D031 /* DailyEntry.swift */; };
+		1A32898A2BD74E3A0016D031 /* LeaderboardEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3289892BD74E3A0016D031 /* LeaderboardEntry.swift */; };
+		1A32898C2BD74E5D0016D031 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32898B2BD74E5D0016D031 /* LoginView.swift */; };
+		1A32898E2BD750030016D031 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32898D2BD750030016D031 /* DashboardView.swift */; };
+		1A3289902BD750230016D031 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32898F2BD750230016D031 /* DashboardViewModel.swift */; };
 		1AB7F5262BD732CC00B7DEBB /* CarbonFootprintCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7F5252BD732CC00B7DEBB /* CarbonFootprintCalculatorApp.swift */; };
 		1AB7F5282BD732CC00B7DEBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7F5272BD732CC00B7DEBB /* ContentView.swift */; };
 		1AB7F52A2BD732CF00B7DEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB7F5292BD732CF00B7DEBB /* Assets.xcassets */; };
 		1AB7F52D2BD732CF00B7DEBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB7F52C2BD732CF00B7DEBB /* Preview Assets.xcassets */; };
+		1AB7F5352BD73C8300B7DEBB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1AB7F5342BD73C8300B7DEBB /* FirebaseAuth */; };
+		1AB7F5372BD73C8300B7DEBB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1AB7F5362BD73C8300B7DEBB /* FirebaseFirestore */; };
+		1AB7F5392BD73C8300B7DEBB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 1AB7F5382BD73C8300B7DEBB /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A3289772BD74B850016D031 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1A3289792BD74D550016D031 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		1A32897B2BD74D720016D031 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1A32897D2BD74D910016D031 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		1A32897F2BD74DB00016D031 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		1A3289812BD74DC60016D031 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1A3289852BD74E030016D031 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1A3289872BD74E1A0016D031 /* DailyEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyEntry.swift; sourceTree = "<group>"; };
+		1A3289892BD74E3A0016D031 /* LeaderboardEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardEntry.swift; sourceTree = "<group>"; };
+		1A32898B2BD74E5D0016D031 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1A32898D2BD750030016D031 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		1A32898F2BD750230016D031 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		1A3289912BD89AE30016D031 /* CarbonFootprintCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CarbonFootprintCalculator.entitlements; sourceTree = "<group>"; };
 		1AB7F5222BD732CC00B7DEBB /* CarbonFootprintCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarbonFootprintCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB7F5252BD732CC00B7DEBB /* CarbonFootprintCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonFootprintCalculatorApp.swift; sourceTree = "<group>"; };
 		1AB7F5272BD732CC00B7DEBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB7F5352BD73C8300B7DEBB /* FirebaseAuth in Frameworks */,
+				1AB7F5372BD73C8300B7DEBB /* FirebaseFirestore in Frameworks */,
+				1AB7F5392BD73C8300B7DEBB /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +82,21 @@
 		1AB7F5242BD732CC00B7DEBB /* CarbonFootprintCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				1A3289912BD89AE30016D031 /* CarbonFootprintCalculator.entitlements */,
 				1AB7F5252BD732CC00B7DEBB /* CarbonFootprintCalculatorApp.swift */,
 				1AB7F5272BD732CC00B7DEBB /* ContentView.swift */,
+				1A32898B2BD74E5D0016D031 /* LoginView.swift */,
+				1A32897B2BD74D720016D031 /* HomeView.swift */,
+				1A32898D2BD750030016D031 /* DashboardView.swift */,
+				1A32897D2BD74D910016D031 /* LeaderboardView.swift */,
+				1A32897F2BD74DB00016D031 /* HistoryView.swift */,
+				1A3289812BD74DC60016D031 /* ProfileView.swift */,
+				1A3289852BD74E030016D031 /* User.swift */,
+				1A3289872BD74E1A0016D031 /* DailyEntry.swift */,
+				1A3289892BD74E3A0016D031 /* LeaderboardEntry.swift */,
+				1A32898F2BD750230016D031 /* DashboardViewModel.swift */,
+				1A3289792BD74D550016D031 /* AppViewModel.swift */,
+				1A3289772BD74B850016D031 /* GoogleService-Info.plist */,
 				1AB7F5292BD732CF00B7DEBB /* Assets.xcassets */,
 				1AB7F52B2BD732CF00B7DEBB /* Preview Content */,
 			);
@@ -83,6 +127,11 @@
 			dependencies = (
 			);
 			name = CarbonFootprintCalculator;
+			packageProductDependencies = (
+				1AB7F5342BD73C8300B7DEBB /* FirebaseAuth */,
+				1AB7F5362BD73C8300B7DEBB /* FirebaseFirestore */,
+				1AB7F5382BD73C8300B7DEBB /* FirebaseStorage */,
+			);
 			productName = CarbonFootprintCalculator;
 			productReference = 1AB7F5222BD732CC00B7DEBB /* CarbonFootprintCalculator.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +160,9 @@
 				Base,
 			);
 			mainGroup = 1AB7F5192BD732CC00B7DEBB;
+			packageReferences = (
+				1AB7F5332BD73C8300B7DEBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 1AB7F5232BD732CC00B7DEBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +179,7 @@
 			files = (
 				1AB7F52D2BD732CF00B7DEBB /* Preview Assets.xcassets in Resources */,
 				1AB7F52A2BD732CF00B7DEBB /* Assets.xcassets in Resources */,
+				1A3289782BD74B850016D031 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +190,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A3289882BD74E1A0016D031 /* DailyEntry.swift in Sources */,
+				1A32897E2BD74D910016D031 /* LeaderboardView.swift in Sources */,
+				1A3289802BD74DB00016D031 /* HistoryView.swift in Sources */,
 				1AB7F5282BD732CC00B7DEBB /* ContentView.swift in Sources */,
+				1A32897C2BD74D720016D031 /* HomeView.swift in Sources */,
+				1A32898C2BD74E5D0016D031 /* LoginView.swift in Sources */,
+				1A3289862BD74E030016D031 /* User.swift in Sources */,
 				1AB7F5262BD732CC00B7DEBB /* CarbonFootprintCalculatorApp.swift in Sources */,
+				1A32898A2BD74E3A0016D031 /* LeaderboardEntry.swift in Sources */,
+				1A3289822BD74DC60016D031 /* ProfileView.swift in Sources */,
+				1A32898E2BD750030016D031 /* DashboardView.swift in Sources */,
+				1A32897A2BD74D550016D031 /* AppViewModel.swift in Sources */,
+				1A3289902BD750230016D031 /* DashboardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +333,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarbonFootprintCalculator/CarbonFootprintCalculator.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CarbonFootprintCalculator/Preview Content\"";
 				DEVELOPMENT_TEAM = U9L7NZJZGW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses HealthKit to read your walking and running distance to credit you with points toward your carbon footprint score.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app uses HealthKit in order to credit your Carbon Footprint score and allow you to gain more points!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -298,12 +365,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarbonFootprintCalculator/CarbonFootprintCalculator.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CarbonFootprintCalculator/Preview Content\"";
 				DEVELOPMENT_TEAM = U9L7NZJZGW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses HealthKit to read your walking and running distance to credit you with points toward your carbon footprint score.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app uses HealthKit in order to credit your Carbon Footprint score and allow you to gain more points!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +414,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1AB7F5332BD73C8300B7DEBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1AB7F5342BD73C8300B7DEBB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AB7F5332BD73C8300B7DEBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1AB7F5362BD73C8300B7DEBB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AB7F5332BD73C8300B7DEBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		1AB7F5382BD73C8300B7DEBB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AB7F5332BD73C8300B7DEBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1AB7F51A2BD732CC00B7DEBB /* Project object */;
 }
